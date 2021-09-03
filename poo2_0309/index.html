@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">calculo areas</a>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-4">
+                <div class="mb-3">
+                    <h4>Area Circunferencia</h4>
+                    <label for=""></label>
+                    <input id="inp_radio" type="number" class="form-control" placeholder="Ingrese radio">
+                    <button id="btn_calcular" class="btn btn-primary" >Calcular</button>
+
+                    <h5 class="mt-3" id="resultadoareac"></h4>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="mb-3">
+                    <h4>Area triangulo rectangulo</h4>
+                    <label for=""></label>
+                    <input id="inp_base" type="number" class="form-control" placeholder="Ingrese base">
+
+                    <label for=""></label>
+                    <input id="inp_altura" type="number" class="form-control" placeholder="Ingrese altura"> 
+
+                    <button id="btn_calcular2" class="btn btn-primary">Calcular</button>
+
+                    <h5 class="mt-3" id="resultado_triangulor"></h4>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="mb-3">
+                    <h4>Area Trapecio</h4>
+                    <label for=""></label>
+                    <input id="inp_bs" type="number" class="form-control" placeholder="Ingrese base superficie">
+
+                    <label for=""></label>
+                    <input id="inp_bi" type="number" class="form-control" placeholder="Ingrese base inferior">
+
+                    <label for=""></label>
+                    <input id="inp_altura2" type="number" class="form-control" placeholder="Ingrese altura">
+
+                    <button id="btn_calcular3" class="btn btn-primary">Calcular</button>
+
+                    <h5 class="mt-3" id="resultado_trapecio"></h4>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="main.js" type="module"></script>
+    
+</body>
+</html>
